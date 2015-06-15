@@ -188,7 +188,7 @@ public class ECLauncherUI extends FragmentActivity implements View.OnClickListen
 		mCustomViewPager.setOffscreenPageLimit(3);
 		if (mLauncherUITabView != null) {
 			mLauncherUITabView.setOnUITabViewClickListener(null);
-			mLauncherUITabView.setVisibility(View.VISIBLE);
+			// mLauncherUITabView.setVisibility(View.VISIBLE);
 		}
 		mLauncherUITabView = (CCPLauncherUITabView) findViewById(R.id.laucher_tab_top);
 		mCustomViewPager.setSlideEnabled(true);
